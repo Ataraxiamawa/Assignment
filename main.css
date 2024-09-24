@@ -1,13 +1,14 @@
 body {
     margin: 0;
     font-family: Arial;
+    background-color: rgb(59, 5, 5);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(39, 45, 75);
+    background-color: rgb(82, 15, 15);
 }
 .logo {
     color: white;
@@ -17,4 +18,31 @@ header {
     color: white;
     margin: 10px 20px 30px 40px;
     text-decoration: none;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(82, 15, 15);
+    color: white;
+    height: 50vh; 
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    margin: 10px 20px 30px 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: left;
+    margin: 10px 20px 30px 40px;
+}
+h2 {
+    font-size: 2em;
+    margin: 0;
 }
